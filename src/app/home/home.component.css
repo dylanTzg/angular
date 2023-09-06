@@ -1,0 +1,10 @@
+.liste-en-ligne {
+  list-style: none; /* Supprime les puces de la liste */
+  padding: 0; /* Supprime le remplissage par défaut de la liste */
+  margin: 0; /* Supprime la marge par défaut de la liste */
+}
+
+.liste-en-ligne li {
+  display : grid ; /* Affiche les éléments les en bas des autres */
+  margin-right: 10px; /* Ajoute une marge entre les éléments li (ajustez selon vos besoins) */
+}
